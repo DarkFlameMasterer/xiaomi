@@ -1,0 +1,35 @@
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea {
+    margin: 0;
+    padding: 0;
+  }
+  strong {
+    font-weight: normal;
+  }
+  body {
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  img {
+    border: none;
+    font-size: 0;
+  }
+  a {
+    // display: table;
+    text-decoration: none;
+    color: black;
+  }
+  input{
+    outline-style: none;
+  }
+
+@mixin position($position,$left,$top) {
+    position: $position;
+    left:$left;
+    top: $top;
+}
+@mixin size($width,$height) {
+    width: $width;
+    height: $height;
+}

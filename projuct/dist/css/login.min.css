@@ -1,0 +1,175 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: normal;
+}
+
+body {
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  outline-style: none;
+}
+
+.head {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.head .l_logo {
+  width: 200px;
+  height: 98px;
+  background: url(../img/login_logo.png) no-repeat;
+}
+
+.bg {
+  background: url(../img/login_bg.jpg) no-repeat top center;
+  width: 100%;
+  height: 588px;
+  position: absolute;
+  left: 0;
+  top: 98px;
+  z-index: -1;
+}
+
+.main {
+  width: 1226px;
+  margin: 38px auto;
+  overflow: hidden;
+}
+
+.main .login_main {
+  width: 410px;
+  height: 550px;
+  background: white;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .login_main .ff6700 {
+  color: #ff6700;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.main .login_main .sep {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.main .login_main .lg_change {
+  margin: 27px 0 24px;
+  width: 100%;
+  display: flex;
+  font-size: 24px;
+}
+
+.main .login_main .lg_change span {
+  flex: 1;
+  text-align: center;
+}
+
+.main .login_main .lg_change .lg_btn {
+  color: #f56600;
+}
+
+.main .login_main .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .login_main .login input {
+  width: 332px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  color: #9b9b9b;
+  font-size: 14px;
+  padding-left: 14px;
+  margin-bottom: 14px;
+}
+
+.main .login_main .login #log {
+  margin-top: 10px;
+  background: #ff6700;
+  width: 348px;
+  height: 50px;
+  color: white;
+}
+
+.main .login_main .login .ph_lg {
+  color: #ff6700;
+}
+
+.main .login_main .login a {
+  color: #9b9b9b;
+}
+
+.main .login_main .login .re_pw {
+  margin-top: 35px;
+}
+
+.main .login_main .login .other_u {
+  margin-top: 130px;
+  display: flex;
+}
+
+.main .login_main .login .other_u a {
+  margin: 0 16px 0;
+}
+
+.main .login_main .login .other_u a span {
+  font-size: 32px;
+}
+
+.main .login_main .login .other_u .icon-qq1 {
+  font-size: 38px;
+  position: relative;
+  top: -3px;
+}
+
+.main .login_main .Qr_login {
+  display: none;
+  color: #333333;
+  padding-top: 150px;
+}
+
+.main .login_main .Qr_login img {
+  margin: 20px 0;
+}
+
+.main .login_main .Qr_login p span {
+  color: #ff6700;
+}
+
+.bottom {
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom .lau {
+  margin-bottom: 10px;
+}

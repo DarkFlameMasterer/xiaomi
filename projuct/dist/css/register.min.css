@@ -1,0 +1,141 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: normal;
+}
+
+body {
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  outline-style: none;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+body .main {
+  background: white;
+  width: 854px;
+  height: 550px;
+  margin: 85px auto 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .main h1 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+body .main form {
+  padding: 30px 0;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+body .main form .wrong, body .main form .zero {
+  display: none;
+  color: #ff6700;
+}
+
+body .main form span {
+  font-size: 14px;
+  color: #333333;
+}
+
+body .main form .nub {
+  display: block;
+  margin-top: 15px;
+}
+
+body .main form .country {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #e8e8e8;
+  margin: 5px 0;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+body .main form .country .down_c {
+  float: right;
+  width: 40px;
+  border-left: 1px solid #e8e8e8;
+  text-align: center;
+}
+
+body .main form .phone {
+  display: flex;
+}
+
+body .main form .phone .region {
+  width: 63px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+  border-right: none;
+  line-height: 42px;
+  padding-left: 5px;
+}
+
+body .main form .phone input {
+  width: 256px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+  padding-left: 5px;
+}
+
+body .main form .reg_btn {
+  margin-top: 30px;
+  width: 332px;
+  height: 42px;
+  background: #ff6700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+body .main form .reg_btn:hover {
+  opacity: .8;
+}
+
+body .main p {
+  color: #9d9d9d;
+}
+
+body .main p a {
+  color: #333333;
+  font-weight: 600;
+}
+
+body .bottom {
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .bottom .lau {
+  margin-bottom: 10px;
+}

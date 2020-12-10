@@ -1,0 +1,127 @@
+@import 'public01';
+
+.head{
+    width: 1226px;
+    margin: 0 auto;
+    .l_logo {
+        width: 200px;
+        height: 98px;
+        background: url(../img/login_logo.png) no-repeat;
+    }
+}
+.bg{
+    background: url(../img/login_bg.jpg) no-repeat top center;
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    z-index: -1;
+}
+.main{
+    width: 1226px;
+    margin: 38px auto;
+    overflow: hidden;
+    .login_main{
+        width: 410px;
+        height: 550px;
+        background: white;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ff6700{
+            color: #ff6700;
+            width: 100%;
+            display: flex;
+            justify-content: start;
+        }
+        .sep{
+            font-size: 14px;
+            color: #9b9b9b;
+        }
+        .lg_change{
+            margin: 27px 0 24px;
+            width: 100%;
+            display: flex;
+            font-size: 24px;
+            span{
+                flex: 1;
+                text-align: center;
+            }
+            .lg_btn{
+                color: #f56600;
+            }
+        }
+        .login{
+            // display: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                @include size(332px,48px);
+                border: 1px solid #e0e0e0;
+                color: #9b9b9b;
+                font-size: 14px ;
+                padding-left: 14px;
+                margin-bottom: 14px;
+            }
+            #log{
+                margin-top: 10px;
+                background: #ff6700;
+                @include size(348px,50px);
+                color: white;
+            }
+            .ph_lg{
+                color: #ff6700;
+            }
+            a{
+                color: #9b9b9b;
+            }
+            .re_pw{
+                margin-top: 35px;
+            }
+            .other_u{
+                margin-top: 130px;
+                display: flex;
+                a{
+                    margin: 0 16px 0 ;
+                }
+                a span{
+                    font-size: 32px;
+                }
+                .icon-qq1{
+                    font-size: 38px;
+                    position: relative;
+                    top: -3px;
+                }
+            }
+        }
+        // .user_login{
+        //     display: none;
+        // }
+        .Qr_login{
+            display: none;
+         color: #333333;
+         padding-top: 150px;
+         img{
+             margin: 20px 0;
+         }
+         p{
+             span{
+                 color: #ff6700;
+             }
+         }   
+        }
+    }
+}
+.bottom{
+    color: #9d9d9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .lau{
+        margin-bottom: 10px;
+    }
+
+}
